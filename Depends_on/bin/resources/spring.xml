@@ -1,0 +1,14 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			
+<beans>
+
+<!-- <bean class="beans.A" id="a"  depends-on="c"/>
+<bean class="beans.B" id="b"/>
+<bean class="beans.C" id="c"/> -->
+
+<bean class="beans.A" id="a"  depends-on="c"/>
+<bean class="beans.B" id="b"/>
+<bean class="beans.C" id="c" depends-on="b"/>
+
+</beans>

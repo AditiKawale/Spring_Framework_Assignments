@@ -1,0 +1,16 @@
+package com.rspc.cab.eng;
+
+public class Engnine {
+
+	private String engine;
+
+	public String getEngine() {
+		return engine;
+	}
+
+	public void setEngine(String engine) {
+		this.engine = engine;
+	}
+	
+	
+}

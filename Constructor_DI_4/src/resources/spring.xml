@@ -1,0 +1,12 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			
+<beans>
+<bean id="t" class="beans.Test" >
+
+<constructor-arg value="Robert" type="String" index="0"/>
+<constructor-arg value="15" type="int" index="1"/>
+<constructor-arg value="RR@gmail.com" type="String" index="2"/> 
+
+</bean>
+</beans>	

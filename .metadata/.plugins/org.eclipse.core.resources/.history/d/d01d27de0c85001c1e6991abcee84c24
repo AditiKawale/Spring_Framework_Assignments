@@ -1,0 +1,14 @@
+package Driver;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.rspc.cab.car.Car;
+
+public class Demo {
+
+	ApplicationContext ap=new ClassPathXmlApplicationContext("resources/spring.xml");
+	//Car cobj=(Car)ap.getBean("com.rspc.cab.car.Car");
+	Car cobj=(Car)ap.getBean("Car.class");
+	cobj.Show();
+}

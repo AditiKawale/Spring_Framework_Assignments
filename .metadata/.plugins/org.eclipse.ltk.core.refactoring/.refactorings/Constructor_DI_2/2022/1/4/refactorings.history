@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;spring.xml&apos; to &apos;Autowiring/src/resources&apos;&#x0D;&#x0A;- Original project: &apos;Constructor_DI_2&apos;&#x0D;&#x0A;- Destination element: &apos;Autowiring/src/resources&apos;&#x0D;&#x0A;- Original element: &apos;spring.xml&apos;" description="Copy file" destination="=Autowiring/src&lt;resources" element1="src/resources/spring.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1642426039123" units="0" version="1.0"/>
+</session>

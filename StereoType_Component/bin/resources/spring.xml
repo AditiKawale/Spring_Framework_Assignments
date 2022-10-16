@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+ <!-- we need to scan only one package i.e. car because it has secondary datatype -->
+    <context:component-scan base-package="com.rspc.cab.car"></context:component-scan>
+    <!-- Activate the Annotation -->
+    <context:annotation-config/>
+    
+    <!-- one bean class object we have to create i.e. Engine -->
+    <bean class="com.rspc.cab.eng.Engine">
+<!-- In this class we have primitive datatype so we will do manual DI -->
+    <property name="engName" value="InnovaEngine"/>
+    </bean>
+</beans>

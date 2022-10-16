@@ -1,0 +1,44 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			
+<beans>
+  
+   <!--       AUTOWIRING ByType 
+  <bean id="e1" class="beans.Engine" autowire-candidate="false">
+  <property name="modelyear" value="2022"/>
+  </bean>  
+  <bean id="e2" class="beans.Engine">
+  <property name="modelyear" value="2021"/>
+  </bean> 
+  <bean id="c" class="beans.Car" autowire="byType">
+  </bean> 
+  MANUAL DI 
+  <bean id="c" class="beans.Car">
+  <property name="engine" ref="e1"></property>
+  </bean> -->
+   
+  
+  
+  <!-- <<< AUTOWIRING ByName >>>
+  <bean id="engine" class="beans.Engine" >
+  <property name="modelyear" value="2022"/>
+  </bean>
+  <bean id="e2" class="beans.Engine">
+  <property name="modelyear" value="2021"/>
+  </bean> 
+  <bean id="c" class="beans.Car" autowire="byName">
+  </bean>  -->
+  
+  <!-- AUTOWIRING by using constructor
+  <bean id="e1" class="beans.Engine" autowire-candidate="false">
+  <property name="modelyear" value="2022"/>
+  </bean>  
+  <bean id="e2" class="beans.Engine">
+  <property name="modelyear" value="2021"/>
+  </bean> 
+  <bean id="b" class="beans.Bus" autowire="constructor">
+  </bean>  -->
+  </beans>
+  
+  
+  
